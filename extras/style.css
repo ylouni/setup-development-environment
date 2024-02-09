@@ -1,0 +1,29 @@
+.squares {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    transform: translateY(150px);
+  }
+  .square {
+    margin: 0 10px;
+    height: 120px;
+    width: 120px;
+    position: relative;
+  }
+  .square.o {
+    background-color: #ababab;
+  }
+  .square.tw {
+    background-color: #7351eb;
+  }
+  .square.t {
+    background-color: transparent;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
